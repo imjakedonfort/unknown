@@ -4,7 +4,7 @@ const typingIndicator = document.getElementById("typing-indicator");
 const messageSound = document.getElementById("message-sound");
 
 // Poza NPC
-const npcImage = '<img src="npc.png" width="40" height="40" style="border-radius:50%; margin-right:5px;">';
+const npcImage = '<img src="https://github.com/imjakedonfort/unknown/blob/main/npc.png.jpeg" width="40" height="40" style="border-radius:50%; margin-right:5px;">';
 
 // Mesaje predefinite
 const dialogue = [
