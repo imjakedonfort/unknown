@@ -1,84 +1,42 @@
-body {
-    background-color: #000;
+#chat-box {
+    background-color: black;
     color: white;
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.chat-container {
-    width: 400px;
-    background: #0a0a0a;
-    border: 2px solid #00ff00;
-    border-radius: 10px;
     padding: 10px;
-    overflow: hidden;
-}
-
-.chat-box {
     height: 300px;
     overflow-y: auto;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.message {
-    padding: 8px;
-    margin: 5px;
-    border-radius: 5px;
-    max-width: 80%;
-    opacity: 0;
-    animation: fadeIn 0.5s ease-in-out forwards;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
 }
 
 .npc-message {
-    background: #222;
-    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.npc-message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
 }
 
 .user-message {
-    background: #005500;
-    align-self: flex-end;
+    background-color: #007bff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: right;
+    margin-bottom: 10px;
 }
 
-.choices {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-}
-
-.choice-btn {
-    background: #00ff00;
-    color: black;
+.option-button {
+    display: block;
+    background-color: #444;
+    color: white;
     border: none;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 5px 0;
     cursor: pointer;
-    text-align: left;
-    transition: background 0.2s;
 }
 
-.choice-btn:hover {
-    background: #00cc00;
-}
-
-.typing {
-    font-style: italic;
-    color: gray;
-    margin: 5px;
-    opacity: 1;
-    transition: opacity 0.3s;
-}
-
-.hidden {
-    opacity: 0;
+.option-button:hover {
+    background-color: #666;
 }
