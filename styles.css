@@ -4,6 +4,8 @@
     padding: 10px;
     height: 300px;
     overflow-y: auto;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
 }
 
 .npc-message {
@@ -35,6 +37,8 @@
     padding: 5px;
     margin: 5px 0;
     cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
 }
 
 .option-button:hover {
